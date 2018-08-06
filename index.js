@@ -3,15 +3,10 @@ const bot = new Discord.Client();
 const mySql = require("mysql");
 const firebase = require("firebase");
 
-const TOKEN = "NDc1NzU3NDg4MzY5ODI3ODQw.Dkjxyg.cpjeSpsxCC049rNw3g-BMRPhgqM";
+//const TOKEN = [REDACTED];
 
 var config = {
-   apiKey: "AIzaSyAIi2vuwZNbzrili17ggggE6xVL1C9Pamo",
-   authDomain: "ratbase-fe1c2.firebaseapp.com",
-   databaseURL: "https://ratbase-fe1c2.firebaseio.com",
-   projectId: "ratbase-fe1c2",
-   storageBucket: "ratbase-fe1c2.appspot.com",
-   messagingSenderId: "971807440412"
+     // [REDACTED]
  };
  firebase.initializeApp(config);
  var database = firebase.database();
